@@ -1,7 +1,7 @@
 function countTrouthy(array) {
     let counter = 0
     array.forEach(element => {
-        if (element && true)
+        if (element)
             counter++
     });
     console.log(counter)
